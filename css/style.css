@@ -1,3 +1,9 @@
+/* Created by: MariaG
+* Created on: April 2, 2022
+* This CSS file defines the style for index.php
+* ICS2O-Assign-02-PHP-Calculations
+*/
+
 img {
   width: 60%;
 }
@@ -39,11 +45,21 @@ form {
   background-color: #fefac1;
   padding: 20px;
   margin-top: 30px;
-  margin-bottom: 30px;
 }
 
-iframe {
+#blue {
+  width: 80%;
+  margin-left: 10%;
+  background-color: #c4f3fc;
+  padding: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
   text-align: center;
-  font-weight: bold;
-  color: #19609d;
+}
+
+button {
+  width: 30%;
+  color: white;
+  border: none;
+  padding: 10px;
 }

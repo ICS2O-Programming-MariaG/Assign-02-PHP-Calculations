@@ -66,10 +66,18 @@
       </div>
       <!-- Final div for style -->
       <div id="yellow">
-        <h3>Results of the Calculations:</h3>
+        <?php echo "<h3>Results of the Calculations:</h3>"; ?>
         <!-- Iframe to display results of calculations -->
         <iframe id="result" name="result">
         </iframe>
+      </div>
+      <div id="blue">
+        <?php 
+          echo "<h3>Converting from CAD to USD</h3>";
+          echo "<p>Want to convert back from Canadian dollars to US dollars? Click the button below to visit the sister web page for that conversion, calculated using Javascript.</p>";
+        ?>
+        <!-- Button from MDL with ripple effect. Setting button to work like a link - line of code copied from https://www.w3docs.com/snippets/html/how-to-create-an-html-button-that-acts-like-a-link.html -->
+        <button onclick="window.location.href='https://assign-02-html-calculations.mariagoemans1.repl.co/';" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">Click here!</button>
       </div>
     </div>
   </body>
