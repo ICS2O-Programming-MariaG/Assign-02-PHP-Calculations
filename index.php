@@ -48,7 +48,7 @@
           <label for="amount-budgeted-usd">How much money have you budgeted for the trip? (In American dollars)</label><br>
           <!-- First MDL textfield -->
           <div class="mdl-textfield mdl-js-textfield">
-            <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="money-usd" name="money-usd">
+            <input class="mdl-textfield__input" type="float" pattern="-?[0-9]*(\.[0-9]+)?" id="money-usd" name="money-usd">
             <label class="mdl-textfield__label" for="Amount-money-usd">Your money...</label>
             <span class="mdl-textfield__error">Input is not a number!</span>
           </div>
@@ -56,7 +56,7 @@
           <label for="time-spent">How many days will you be staying in Canada?</label><br>
           <!-- Second MDL textfield -->
           <div class="mdl-textfield mdl-js-textfield">
-            <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="days-in-ca" name="days-in-ca">
+            <input class="mdl-textfield__input" type="float" id="days-in-ca" name="days-in-ca">
             <label class="mdl-textfield__label" for="Amount-money-cad">Number of days...</label>
             <span class="mdl-textfield__error">Input is not a number!</span>
           </div>
